@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #2e2e2e;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.ListItems {
+  background-color: #fff;
+  color: black;
+}
+
+.ListItems p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.ListItems span {
+  text-align: center;
+  padding: 10px 0;
+  display: inline-block;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+
+.ListItems span.title {
+  background: yellowgreen;
+  color: #fff;
+}
+
+.ListItems span.username,
+form input[type="username"] {
+  width: 50%;
+}
+
+.ListItems span.password,
+form input[type="password"] {
+  width: 40%;
+}
+
+.ListItems span.action,
+form input[type="submit"] {
+  width: 10%;
+}
+
+.ListItems span.icon {
+  color: black;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+form input[type="submit"] {
+  padding: 10px;
+  background: yellowgreen;
+  border: 0.3px solid yellowgreen;
+  color: #fff;
+  cursor: pointer;
+}
